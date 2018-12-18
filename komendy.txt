@@ -6,3 +6,5 @@ set https_proxy=http://126.179.0.206:9090
 git remote add origin https://github.com/paweljj/node-course-todo-api.git
 
 git push -u origin master
+
+npm run test-watch
