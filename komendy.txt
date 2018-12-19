@@ -6,5 +6,10 @@ set https_proxy=http://126.179.0.206:9090
 git remote add origin https://github.com/paweljj/node-course-todo-api.git
 
 git push -u origin master
+git push heroku master
 
 npm run test-watch
+
+mongodb://todoapi:todoAPI11!@ds237120.mlab.com:37120/todoapi
+
+heroku config:set MONGODB_URI=mongodb://todoapi:todoAPI11!@ds237120.mlab.com:37120/todoapi
